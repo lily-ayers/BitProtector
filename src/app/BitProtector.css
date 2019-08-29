@@ -1,0 +1,46 @@
+.startbutton
+{	
+	background-color: #4682B4;
+	position: absolute; 
+	width: 100px; height: 50px;
+	color: #FFFFFF;
+	text-align: center;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	top: 495px; left: 20px;
+}
+ 
+.resetbutton
+{	
+	background-color: #4682B4;
+	position: absolute; 
+	width: 100px; height: 50px;
+	color: #FFFFFF;
+	text-align: center;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	top: 560px; left: 20px;
+}
+
+.mapzone
+{
+	background-color: #228B22;
+	position: absolute; 
+	top: 0px; left: 0px;
+	width: 15px; height: 15px;
+}
+
+.turret
+{
+	background-color: #C0C0C0;
+	opacity: 0.7;
+	border: 2px solid #000000;
+	position: absolute;
+	top: 500px; left: 0px;
+	width: 40px; height: 40px;
+	color: #000000;
+	text-align: center;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+ 

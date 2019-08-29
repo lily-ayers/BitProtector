@@ -1,0 +1,1 @@
+<button *ngFor="let levelNum of levels" (click)="startLevel(levelNum)" [disabled]="levelNum > 1">Level {{ levelNum }}</button>

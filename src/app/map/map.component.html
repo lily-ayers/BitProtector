@@ -1,0 +1,3 @@
+<div *ngFor="let y of map" class="grid-row" [ngStyle]="{'width': map.length*60 + 'px'}">
+  <div *ngFor="let x of y" [ngStyle]="{'background-color': x.path ? 'burlywood' : 'green'}" class="grid-square"></div>
+</div>
